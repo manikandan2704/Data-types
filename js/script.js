@@ -1,20 +1,11 @@
 //datatypes
 
 
-//1.Boolean type//
-//2.Null type//
-//3.Undefined type//
-//4.Number type//
-//5.BigInt type//
-//6.String type//
-//7.Symbol type//
 
 
-
-
-var a=10;
-var b=25;
-console.log(a+b);
+// var a=10;
+// var b=25;
+// console.log(a+b);
 //string
 /*var d = 10
 var c = "string"
@@ -42,3 +33,11 @@ console.log(person);*/
 
 
 
+function ascent(){
+    var txt =document.getElementById('text1').value;
+    document.getElementById('display').innerHTML=txt;
+    var txt =document.getElementById('text2').value;
+    document.getElementById('display').innerHTML=txt;
+    var txt =document.getElementById('text3').value;
+    document.getElementById('display').innerHTML=txt;
+}
